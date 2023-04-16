@@ -30,6 +30,7 @@ app.use((req, res, next) => {
   next();
 });
 
+app.get('/status', (req, res) => res.status(200).send('Status is OK'));
 app.use(router);
 require('./components/user/api')(router);
 
