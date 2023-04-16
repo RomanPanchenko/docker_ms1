@@ -1,0 +1,7 @@
+node_modules/
+tmp/
+deploy/
+npm-debug.log
+.vscode
+.github
+.idea
